@@ -335,3 +335,34 @@ h3 {
 .sinle-clint:hover {
     color: rgba(249, 72, 178, 1);
 }
+/* Footer Area Start */
+.footer-area {
+	background: rgba(11, 2, 35, 1);
+}
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.footer-logo a {
+	display: flex;
+    color: #fff;
+}
+.footer-menu ul, .footer-condition0menu ul  {
+	display: flex;
+	padding: 40px 0;
+}
+.footer-menu ul li a, .footer-icon a {
+	color: #fff;
+	padding: 10px 20px;
+	font-weight: 600;
+}
+.footer-icon a {
+    font-size: 30px;
+}
+.footer-condition0menu ul li a, .copyright {
+	color: rgba(83, 76, 100, 1);
+	padding: 0 15px;
+	font-size: 16px;
+}
