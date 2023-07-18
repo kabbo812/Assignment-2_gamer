@@ -25,6 +25,16 @@ a{
     text-transform: capitalize;
     color: rgba(60, 53, 79, 1);
 }
+h3 {
+	font-size: 48px;
+	text-transform: capitalize;
+	color: rgba(249, 72, 178, 1);
+	font-weight: 700;
+    margin-bottom: 20px;
+}
+.s-padding{
+    padding: 70px 0;
+}
 .btn-1 {
 	color: #fff;
 	background: rgba(255, 66, 165, 1);
@@ -126,3 +136,34 @@ a{
     background: rgba(78, 197, 247, 1);
 }
 /* Banner Area End */
+.gamer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.gamer-image {
+	width: 750px;
+	height: 400px;
+}
+.gamer-image img{
+    width: 100%;
+    height: 100%;
+}
+.gamer-content {
+	text-align: right;
+	max-width: 460px;
+	width: 100%;
+}
+.gamer-content p {
+	font-size: 16px;
+}
+.gamer-content h6 {
+	font-size: 19px;
+	ccolor: rgba(83, 76, 100, 1);
+	font-weight: 400;
+}
+.gamer-content h5 {
+	font-size: 27px;
+	color: rgba(83, 76, 100, 1);
+}
+/* We Are Gamer Css End */
