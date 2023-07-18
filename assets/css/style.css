@@ -9,6 +9,63 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
 img{
     display: block;
 }
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(60, 53, 79, 1);
+}
+.header-area {
+	background: #FFF;
+	padding: 20px 0;
+	box-shadow: 0 0 3px #e8dede;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo-area a {
+	align-items: center;
+	display: flex;
+}
+.logo-area img {
+	width: 80px;
+	height: 40px;
+	object-fit: contain;
+}
+.logo-text {
+	font-size: 45px;
+	font-weight: 700;
+	margin-left: 20px;
+}
+.logo-text span{
+    color: rgba(255, 66, 165, 1);
+}
+.menu-area ul {
+	display: flex;
+}
+.menu-area ul li {
+	list-style: none;
+	padding: 12px 25px;
+}
+.menu-area ul li:nth-child(3) {
+	background: #E7E6E9;
+	text-transform: capitalize;
+	border-radius: 7px;
+}
+.menu-area ul li a i{
+    font-size: 20px;
+}
+.youtube {
+	margin: 0 7px 0 10px;
+	color: red;
+}
+/* Header Area CSS End */
