@@ -225,6 +225,9 @@ h3 {
 	border: 3px solid  rgba(249, 72, 178, 1);
 }
 /* Online Gamers Area End */
+.pay-instant-area{
+    padding-bottom: 100px;
+}
 .pay-instant {
 	display: flex;
 	justify-content: space-between;
@@ -253,4 +256,52 @@ h3 {
 	width: 300px;
 	height: 350px;
 	object-fit: cover;
+}
+.Career-area {
+	
+    background: url('../image/Vector\ 2.png') no-repeat scroll top right -320px;
+    background-color: rgba(255, 66, 165, 1);
+}
+.career {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	align-items: center;
+	justify-items: self-end;
+}
+.left-career {
+	color: #fff;
+}
+.career-content h3 {
+	color: #fff;
+}
+.right-career img {
+	width: 100%;
+	height: 100%;
+}
+.right-career {
+	width: 500px;
+	height: 450px;
+}
+.career-content p {
+	max-width: 549px;
+    width: 100%;
+	font-size: 15px;
+	text-align: justify;
+	margin-bottom: 35px;
+	line-height: 25px;
+}
+.sell-btn {
+	background: #fff;
+	color: rgba(255, 66, 165, 1);
+}
+.career-item {
+	display: flex;
+	justify-content: space-between;
+}
+.right-artist{
+    text-align: right;
+}
+.artist ul li {
+	line-height: 35px;
+	font-weight: 600;
 }
