@@ -305,3 +305,33 @@ h3 {
 	line-height: 35px;
 	font-weight: 600;
 }
+.clint {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    gap: 20px;
+}
+.sinle-clint img {
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+}
+.sinle-clint {
+	display: flex;
+	align-items: center;
+	padding: 6px 9px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+}
+.sinle-clint p {
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-left: 8px;
+}
+.sinle-clint:hover{
+    border: 2px solid rgba(249, 72, 178, 1);
+} 
+.sinle-clint:hover {
+    color: rgba(249, 72, 178, 1);
+}
