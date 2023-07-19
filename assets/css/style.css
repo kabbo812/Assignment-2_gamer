@@ -101,6 +101,7 @@ h3 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	gap: 30px;
 }
 .banner-content h2 {
 	font-size: 48px;
@@ -357,6 +358,7 @@ h3 {
 	color: #fff;
 	padding: 10px 20px;
 	font-weight: 600;
+	display: inline-block;
 }
 .footer-icon a {
     font-size: 30px;

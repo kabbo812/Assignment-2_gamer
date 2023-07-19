@@ -1,0 +1,139 @@
+@media all and (max-width:1140px){
+    .container{
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .single-item-img {
+        width: 100%; 
+        height: 100%;
+    }
+    .pay-instant {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 30px 0;
+    }
+    .overlay-image {
+        left: -50px;
+    }
+}
+@media all and (max-width:991px){
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .banner-image {
+        width: 500px;
+        height: 600px;
+    }
+    .gamer-item {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .single-item-img {
+        width: 100%;
+        height: auto;
+    }
+    .title-2 {
+        max-width: 100%;
+        text-align: center;
+    }
+    .career {
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    .footer-condition0menu ul li a, .copyright {
+        padding: 10px 20px;
+        display: inline-block;
+    }
+    
+}
+@media all and (max-width:768px){
+    .header {
+        flex-direction: column;
+    }
+    .menu-area {
+        margin-top: 30px;
+    }
+    .banner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .banner-image {
+        order: -1;
+    }   
+    .gamer {
+        flex-direction: column;
+    }
+    .gamer-content {
+        text-align: center;
+    }
+    .gamer-image {
+        width: auto;
+       
+    }
+    .gamer-item {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .single-items p {
+        text-align: center;
+    }
+    .pay-image {
+        width: 100%;
+        height: auto;
+    }
+    .right-career {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .footer-menu ul, .footer-condition0menu ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+}
+@media all and (max-width: 576px){
+    .menu-area ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-content h2 {
+        font-size: 35px;
+    }
+    .banner-content h1 {
+        font-size: 70px;
+    }
+    .banner-image {
+        width: 300px;
+        height: 350px;
+    }
+    .banner-content {
+        text-align: center;
+    }
+    .banner-items {
+        text-align: left;
+    }
+    .sinle-clint.hide {
+        display: none;
+    }
+
+}
+@media all and (max-width: 480px){
+    body {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 40px;
+    }
+    .overlay-image {
+        left: -20px;
+    }
+    .overlay-image {
+        width: 180px;
+        height: 200px;
+    }
+    .artist ul li {
+        line-height: 28px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+}
